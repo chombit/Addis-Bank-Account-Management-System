@@ -52,8 +52,8 @@ class CurrentAccount(Account):
 
 
 if __name__ == "__main__":
-    acc1 = SavingsAccount("Alice", 1000.0, 0.05)
-    acc2 = CurrentAccount("Bob", 500.0, 300.0)
+    acc1 = SavingsAccount("Biniam", 1000.0, 0.05)
+    acc2 = CurrentAccount("Fasil", 500.0, 300.0)
 
     acc1.deposit(200)
     acc1.add_interest()
